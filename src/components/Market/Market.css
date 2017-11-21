@@ -5,11 +5,14 @@
   margin: 0 10px;
 }
 
+.market p {
+  margin: 5px;
+}
+
 .new-orders__create-form {
   display: flex;
   flex-direction: column;
 }
-
 
 .order-list {
   padding: 20px 0;
