@@ -1,4 +1,4 @@
-import { CREATE_ORDER, MOVE_ORDER_TO_FARM } from "./actionTypes";
+import { CREATE_ORDER, MOVE_ORDER_TO_FARM } from "./../constants/actionTypes";
 
 export const createOrder = payload => ({
   type: CREATE_ORDER,

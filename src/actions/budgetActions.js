@@ -1,4 +1,4 @@
-import MOVE_ORDER_TO_CUSTOMER from "./actionTypes";
+import MOVE_ORDER_TO_CUSTOMER from "./../constants/actionTypes";
 
 export const moveOrderToCustomer = payload => ({
   type: MOVE_ORDER_TO_CUSTOMER,

@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import { CREATE_ORDER, MOVE_ORDER_TO_FARM } from "../actions/actionTypes";
+import { CREATE_ORDER, MOVE_ORDER_TO_FARM } from "../constants/actionTypes";
 import { sortOrderFn } from "./helpers";
 
 const orders = (state = [], action) => {
