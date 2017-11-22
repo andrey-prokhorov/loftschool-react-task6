@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import "./Market.css";
 import { createOrder, moveOrderToFarm } from "../../actions/marketActions";
 import Order from "../Order";
-
 import { connect } from "react-redux";
+
 let id = 0;
 const getId = () => {
   id += 1;
   return id;
 };
+
 export const vegetables = [
   "Cabbage",
   "Radish",

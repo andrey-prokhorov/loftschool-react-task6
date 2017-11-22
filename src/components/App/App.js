@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Market from "../Market/";
+import Farm from "../Farm/";
 import "./App.css";
 
 export default class App extends Component {
@@ -7,6 +8,7 @@ export default class App extends Component {
     return (
       <div className="app">
         <Market />
+        <Farm />
       </div>
     );
   }
