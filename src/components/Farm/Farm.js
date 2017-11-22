@@ -20,9 +20,9 @@ export class Farm extends Component {
 
     return (
       <div className="farm">
-        <h2>Farm production</h2>
+        <h2>Farm</h2>
         <button onClick={this.moveOrderToCustomer} disabled={!orders.length}>
-          Send the harvest to the customer
+          Send grown vegetables to the customer
         </button>
 
         <div className="order-list">

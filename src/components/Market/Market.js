@@ -58,7 +58,7 @@ export class Market extends Component {
     return (
       <div className="market">
         <div className="control-panel">
-          <h2>List of orders in the store:</h2>
+          <h2>Market</h2>
           <button onClick={this.createOrder}>Add an order</button>
           <button
             onClick={this.moveOrderToFarm}

@@ -3,7 +3,7 @@ import { sortOrderFn } from "./helpers";
 import {
   MOVE_ORDER_TO_CUSTOMER,
   MOVE_ORDER_TO_FARM
-} from "../actions/actionTypes";
+} from "../constants/actionTypes";
 
 const orders = (state = [], action) => {
   switch (action.type) {
@@ -22,6 +22,5 @@ export default combineReducers({
   orders
 });
 
-export const getFarmOrders = state => {
+export const getFarmOrders = state =>
   state.farm.orders.concat().sort(sortOrderFn);
-};
