@@ -4,10 +4,8 @@ import { createOrder, moveOrderToFarm } from "../../actions/marketActions";
 import Order from "../Order";
 import { connect } from "react-redux";
 
-let id = 0;
 const getId = () => {
-  id += 1;
-  return id;
+  return Math.floor(new Date().valueOf() * Math.random());
 };
 
 export const vegetables = [
