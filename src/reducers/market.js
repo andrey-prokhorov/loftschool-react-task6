@@ -8,7 +8,7 @@ const orders = (state = [], action) => {
       return [...state, action.payload];
 
     case MOVE_ORDER_TO_FARM:
-      return state.filter(x => x.key !== action.payload.key);
+      return state.filter(x => x.id !== action.payload.id);
 
     default:
       return state;
